@@ -1,2 +1,5 @@
-<h1>ePortfolio M152</h1>
-<p>Wow, such empty</p>
+<script>
+    import { Heading } from 'flowbite-svelte';
+</script>
+
+<Heading tag="h1">Hello, welcome</Heading>
