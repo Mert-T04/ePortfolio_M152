@@ -1,24 +1,32 @@
 <script>
     import "../app.pcss";
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Footer, FooterCopyright } from 'flowbite-svelte';
+    import { page } from '$app/stores';
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Footer, FooterCopyright, DarkMode } from 'flowbite-svelte';
+
+    $: activeUrl = $page.url.pathname;
 </script>
 
-<Navbar class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b">
-    <NavBrand href="/">
+<Navbar class="px-2 sm:px-4 py-2.5 w-full z-20 top-0 start-0 border-b">
+    <NavBrand href="/" class="w-16">
         <img src="/logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
-        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">ePortfolio M152</span>
+        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white hidden md:block">FPV Drohne</span>
     </NavBrand>
-    <NavHamburger />
-    <NavUl>
+    <NavUl class="order-1"  {activeUrl}>
         <NavLi href="/" active={true}>Home</NavLi>
         <NavLi href="/images">Bilder</NavLi>
         <NavLi href="/setup">Setup</NavLi>
         <NavLi href="/contact">Kontakt</NavLi>
     </NavUl>
+    <NavHamburger class="flex md:order-1" />
+    <div class="flex md:order-2 w-16">
+        <DarkMode />
+    </div>
 </Navbar>
-<div>
-    <slot></slot> <!-- TODO MT: Navbar is infront of Slot and Footer is not always at the bottom -->
-</div>
-<Footer>
+
+<main class="flex-grow mx-auto max-w-5xl p-4">
+    <slot></slot>
+</main>
+
+<Footer class="py-8" >
     <FooterCopyright by="Mert Tasdemir" year={new Date().getFullYear()} />
 </Footer>
