@@ -5,7 +5,7 @@
 
 <div class=emotion-image></div>
 <h1 class="emotion-title text-center text-3xl md:text-5xl font-bold text-white drop-shadow-lg italic">
-    Sky's <span class="gradient-text">no limit</span><br>
+    Sky's <span class="gradient-text">not the limit</span><br>
     <span class="gradient-text">Fly</span> wherever you like
 </h1>
 
