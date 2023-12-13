@@ -1,7 +1,7 @@
 <script>
-	import { Heading } from 'flowbite-svelte';
-
-    /** @type {import('./$types').PageData} */
-    export let data;
+	import { Heading, Skeleton } from 'flowbite-svelte';
 </script>
-<Heading tag="h1">Page not implemented yet</Heading>
+<Heading tag="h1">Kontakt Page not implemented yet</Heading>
+<Skeleton size="sm" class="my-8" />
+<Skeleton size="sm" class="my-8" />
+<Skeleton size="sm" class="my-8" />
