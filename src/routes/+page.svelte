@@ -10,7 +10,7 @@
         Sky's <span class="gradient-text">not the limit</span><br>
         <span class="gradient-text">Fly </span>wherever you like
     </h1>
-    <iframe class="w-full max-h-[50vh] max-w-2xl lg:max-w-3xl aspect-video z-10 rounded-xl drop-shadow-lg" src="https://www.youtube.com/embed/QdBZY2fkU-0?si=WvVVKsEvIHk1_0sz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="w-full max-h-[50vh] max-w-2xl lg:max-w-3xl aspect-video z-10 rounded-xl drop-shadow-lg" src="https://www.youtube.com/embed/vqc7L0zU1rI?si=7jGxU8tehQox03fG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="home-content flex items-center align-center flex-col">
