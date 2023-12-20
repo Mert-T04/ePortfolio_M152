@@ -10,21 +10,24 @@
         Sky's <span class="gradient-text">not the limit</span><br>
         <span class="gradient-text">Fly </span>wherever you like
     </h1>
-    <iframe class="w-full max-h-[50vh] max-w-2xl lg:max-w-3xl aspect-video z-10 rounded-xl drop-shadow-lg" src="https://www.youtube.com/embed/vqc7L0zU1rI?si=7jGxU8tehQox03fG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="w-full max-h-[50vh] max-w-xl lg:max-w-3xl aspect-video z-10 rounded-xl drop-shadow-lg" src="https://www.youtube.com/embed/vqc7L0zU1rI?si=7jGxU8tehQox03fG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="home-content flex items-center align-center flex-col">
     <p class="my-32 text-lg text-center dark:text-slate-100">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt nesciunt odio voluptatum labore! Fugit optio sapiente nihil quaerat molestias vel, animi ad, nulla, deserunt repellendus modi? Ea, blanditiis officia.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt nesciunt odio voluptatum labore! Fugit optio sapiente nihil quaerat molestias vel, animi ad, nulla, deserunt repellendus modi? Ea, blanditiis officia.
+        FPV-Drohnen, kurz für "First Person View" Drohnen, bieten ein immersives Flugerlebnis, das den Piloten durch eine Kamera an Bord direkt in das Cockpit versetzt. Diese hochentwickelten Geräte, oft favorisiert von Hobbyisten und Rennfahrern, ermöglichen eine einzigartige Perspektive, als ob man selbst durch die Lüfte gleitet. Mit speziellen FPV-Brillen ausgestattet, erleben die Piloten eine Live-Übertragung des Kamerabildes, was präzises und dynamisches Fliegen ermöglicht. FPV-Drohnen variieren in Größe und Leistung, von kleinen, wendigen Modellen für Rennen bis hin zu größeren, stabilen Ausführungen für die Luftbildfotografie. Diese Technologie eröffnet neue Horizonte für das Erkunden und Erfassen von atemberaubenden Landschaften, bietet aber auch spannende Wettbewerbsmöglichkeiten für Rennbegeisterte.
     </p>
     <Card img="https://picsum.photos/200" href="/images" horizontal reverse={false} class="mb-16">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">First Card Component</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque voluptatibus dicta repellat aperiam nisi sunt voluptatum autem eaque inventore, laborum expedita accusantium enim? Esse veniam ad nihil recusandae doloribus voluptates.</p>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bildergallerie</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+            Jedes Bild erzählt eine eigene Geschichte und demonstriert die beeindruckenden Möglichkeiten der FPV-Technologie. Durch Bildbearbeitung bekommt jede Aufnahme einen speziellen Touch.
+        </p>
     </Card>
     <Card img="https://picsum.photos/200" href="/setup" horizontal reverse={true} class="mb-16">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Second Card Component</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate adipisci nihil quam eum. Vel sint aliquam eveniet at! Vel cupiditate odio suscipit eum dolorem aliquam cum in minus nam distinctio.</p>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Setup</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+            Hinter dem Hobby stechkt mehr als nur die Drohne. Damit man abheben kann, braucht man eine Reihe von Geräten und das benötigte Verständnis dafür.
+        </p>
     </Card>
 </div>
 

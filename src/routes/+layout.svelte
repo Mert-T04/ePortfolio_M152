@@ -14,7 +14,6 @@
         <NavLi href="/" active={true}>Home</NavLi>
         <NavLi href="/images">Bilder</NavLi>
         <NavLi href="/setup">Setup</NavLi>
-        <NavLi href="/contact">Kontakt</NavLi>
     </NavUl>
     <NavHamburger class="flex md:order-1" /> <!-- TODO MT: Close NavHamburger when navigated -->
     <div class="flex md:order-2 w-16">

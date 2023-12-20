@@ -1,7 +1,73 @@
 <script>
-	import { Heading, Skeleton } from 'flowbite-svelte';
+	import { Carousel, Heading } from 'flowbite-svelte';
+  	import { fade } from 'svelte/transition';
+
+	// @ts-ignore
+	const scaleAnimation = (x) => fade(x, { delay: 0, duration: 250 });
+
+	export const images1 = [
+		{
+			alt: 'firstImg',
+			src: 'https://picsum.photos/1280/720?random=1',
+			title: 'firstImg'
+		},
+		{
+			alt: 'secondImg',
+			src: 'https://picsum.photos/1280/720?random=2',
+			title: 'secondImg'
+		}
+	]
+	export const images2 = [
+		{
+			alt: 'ping',
+			src: 'https://picsum.photos/1280/720?random=1',
+			title: 'ping'
+		},
+		{
+			alt: 'pong',
+			src: 'https://picsum.photos/1280/720?random=2',
+			title: 'pong'
+		}
+	]
+	export const images3 = [
+		{
+			alt: 'hello',
+			src: 'https://picsum.photos/1280/720?random=1',
+			title: 'hello'
+		},
+		{
+			alt: 'world',
+			src: 'https://picsum.photos/1280/720?random=2',
+			title: 'world'
+		}
+	]
 </script>
-<Heading tag="h1">Image Page not implemented yet</Heading>
-<Skeleton size="sm" class="my-8" />
-<Skeleton size="sm" class="my-8" />
-<Skeleton size="sm" class="my-8" />
+
+<div class="flex items-center align-center flex-col">
+	<Heading tag="h1" class="text-center mt-16">Bildergallerie</Heading>
+
+	<p class="my-32 text-lg text-center dark:text-slate-100">
+		Jedes Bild erzählt eine eigene Geschichte und demonstriert die beeindruckenden Möglichkeiten der FPV-Technologie. Durch Bildbearbeitung bekommt jede Aufnahme einen speziellen Touch.
+	</p>
+	
+	<div class="w-full aspect-video max-w-4xl my-16">
+		<Carousel images={images1} transition={scaleAnimation} let:Controls let:Indicators>
+			<Controls />
+			<Indicators />
+		</Carousel>
+	</div>
+	
+	<div class="w-full aspect-video max-w-4xl my-16">
+		<Carousel images={images2} transition={scaleAnimation} let:Controls let:Indicators>
+			<Controls />
+			<Indicators />
+		</Carousel>
+	</div>
+	
+	<div class="w-full aspect-video max-w-4xl my-16">
+		<Carousel images={images3} transition={scaleAnimation} let:Controls let:Indicators>
+			<Controls />
+			<Indicators />
+		</Carousel>
+	</div>
+</div>
