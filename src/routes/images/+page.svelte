@@ -20,12 +20,12 @@
 	export const images2 = [
 		{
 			alt: 'ping',
-			src: 'https://picsum.photos/1280/720?random=1',
+			src: '/2023/ina4a/gruppe20/propsOriginal.jpg',
 			title: 'ping'
 		},
 		{
 			alt: 'pong',
-			src: 'https://picsum.photos/1280/720?random=2',
+			src: '/2023/ina4a/gruppe20/propsEdited.jpg',
 			title: 'pong'
 		}
 	]
