@@ -7,13 +7,13 @@
 </script>
 
 <Navbar class="px-2 sm:px-4 py-2.5 w-full z-20 top-0 start-0 border-b">
-    <NavBrand href="/" class="w-16">
-        <img src="/logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
+    <NavBrand href="/2023/ina4a/gruppe20" class="w-16">
+        <img src="logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
     </NavBrand>
     <NavUl class="order-1" {activeUrl}>
-        <NavLi href="/" active={true}>Home</NavLi>
-        <NavLi href="/images">Bilder</NavLi>
-        <NavLi href="/setup">Setup</NavLi>
+        <NavLi href="/2023/ina4a/gruppe20" active={true}>Home</NavLi>
+        <NavLi href="/2023/ina4a/gruppe20/images">Bilder</NavLi>
+        <NavLi href="/2023/ina4a/gruppe20/setup">Setup</NavLi>
     </NavUl>
     <NavHamburger class="flex md:order-1" /> <!-- TODO MT: Close NavHamburger when navigated -->
     <div class="flex md:order-2 w-16">

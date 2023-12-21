@@ -17,13 +17,13 @@
     <p class="my-32 text-lg text-center dark:text-slate-100">
         FPV-Drohnen, kurz für "First Person View" Drohnen, bieten ein immersives Flugerlebnis, das den Piloten durch eine Kamera an Bord direkt in das Cockpit versetzt. Diese hochentwickelten Geräte, oft favorisiert von Hobbyisten und Rennfahrern, ermöglichen eine einzigartige Perspektive, als ob man selbst durch die Lüfte gleitet. Mit speziellen FPV-Brillen ausgestattet, erleben die Piloten eine Live-Übertragung des Kamerabildes, was präzises und dynamisches Fliegen ermöglicht. FPV-Drohnen variieren in Größe und Leistung, von kleinen, wendigen Modellen für Rennen bis hin zu größeren, stabilen Ausführungen für die Luftbildfotografie. Diese Technologie eröffnet neue Horizonte für das Erkunden und Erfassen von atemberaubenden Landschaften, bietet aber auch spannende Wettbewerbsmöglichkeiten für Rennbegeisterte.
     </p>
-    <Card img="droneOriginal.jpeg" href="/images" horizontal reverse={false} class="mb-16">
+    <Card img="droneOriginal.jpeg" href="/2023/ina4a/gruppe20/images" horizontal reverse={false} class="mb-16">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bildergallerie</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
             Jedes Bild erzählt eine eigene Geschichte und demonstriert die beeindruckenden Möglichkeiten der FPV-Technologie. Durch Bildbearbeitung bekommt jede Aufnahme einen speziellen Touch.
         </p>
     </Card>
-    <Card img="https://picsum.photos/200" href="/setup" horizontal reverse={true} class="mb-16">
+    <Card img="https://picsum.photos/200" href="/2023/ina4a/gruppe20/setup" horizontal reverse={true} class="mb-16">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Setup</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
             Hinter dem Hobby stechkt mehr als nur die Drohne. Damit man abheben kann, braucht man eine Reihe von Geräten und das benötigte Verständnis dafür.

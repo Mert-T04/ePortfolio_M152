@@ -6,6 +6,9 @@ const config = {
   preprocess: [vitePreprocess({})],
 
   kit: {
+    paths: {
+      base: '/2023/ina4a/gruppe20',
+    },
     adapter: adapter({
       pages: "build",
       assets: "build",

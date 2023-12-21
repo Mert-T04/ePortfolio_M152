@@ -8,12 +8,12 @@
 	export const images1 = [
 		{
 			alt: 'FPV Drone',
-			src: 'droneOriginal.jpeg',
+			src: '/2023/ina4a/gruppe20/droneOriginal.jpeg',
 			title: 'FPV Drone'
 		},
 		{
 			alt: 'FPV Drone',
-			src: 'droneEdited.png',
+			src: '/2023/ina4a/gruppe20/droneEdited.png',
 			title: 'FPV Drone'
 		}
 	]
