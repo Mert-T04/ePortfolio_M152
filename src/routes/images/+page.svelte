@@ -7,14 +7,14 @@
 
 	export const images1 = [
 		{
-			alt: 'firstImg',
-			src: 'https://picsum.photos/1280/720?random=1',
-			title: 'firstImg'
+			alt: 'FPV Drone',
+			src: 'droneOriginal.jpeg',
+			title: 'FPV Drone'
 		},
 		{
-			alt: 'secondImg',
-			src: 'https://picsum.photos/1280/720?random=2',
-			title: 'secondImg'
+			alt: 'FPV Drone',
+			src: 'droneEdited.png',
+			title: 'FPV Drone'
 		}
 	]
 	export const images2 = [
