@@ -14,11 +14,11 @@
 	</Card>
 	<Card img="{base}/setup/goggles.jpg" class="mb-4">
 		<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Goggles</h3>
-		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Wie der Name schon sagt, sieht man beim FPV (First Person View) aus der Sicht der Drohne. Um die Sicht immer zu behalten und nicht gestört zu werden, setzt man eine Brille auf in der man die Live-¨Ubertragung der Drohnenkamera sieht. Ich benutze die FatShark Scout.</p>
+		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Wie der Name schon sagt, sieht man beim FPV (First Person View) aus der Sicht der Drohne. Um die Sicht immer zu behalten und nicht gestört zu werden, setzt man eine Brille auf in der man die Live-Übertragung der Drohnenkamera sieht. Ich benutze die FatShark Scout.</p>
 	</Card>
 	<Card img="{base}/setup/radio.jpg" class="mb-4">
 		<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Radio</h3>
-		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Mit dem Radio bzw. dem controller kontrolliert man die Drohne an sich. Es ähnelt sehr einem Spielecontroller für eine Konsole, funktioniert jedoch etwas anders. Die RadioMaster Zorro ist eine sehr beliebte Wahl in dem Hobby.</p>
+		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Mit dem Radio bzw. dem Controller kontrolliert man die Drohne an sich. Es ähnelt sehr einem Spielecontroller für eine Konsole, funktioniert jedoch etwas anders. Die RadioMaster Zorro ist eine sehr beliebte Wahl in dem Hobby.</p>
 	</Card>
 	<Card img="{base}/setup/gopro.jpg" class="mb-4">
 		<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GoPro</h3>
@@ -30,6 +30,6 @@
 	</Card>
 	<Card img="{base}/setup/charger.jpg" class="mb-4">
 		<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Charger</h3>
-		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Die LiPo-Akkus müssen auch aufgeladen werden. Dazu wird ein spezielles Ladegerät verwendet, mit der man den Stromzufur genau anpassen kann. Da man mit LiPo-Akkus vorsichtig umgehen soll und auf keinen Fall falsch aufladen darf, habe ich mir ein hochwertigeres Ladegerät geholt.</p>
+		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Die LiPo-Akkus müssen auch aufgeladen werden. Dazu wird ein spezielles Ladegerät verwendet, mit der man den Stromzufur genau anpassen kann. Da man mit LiPo-Akkus vorsichtig umgehen soll und auf keinen Fall falsch aufladen darf, habe ich mir ein hochwertiges Ladegerät geholt.</p>
 	</Card>
 </div>
