@@ -8,31 +8,31 @@
 	export const images1 = [
 		{
 			alt: 'FPV Drone',
-			src: '/2023/ina4a/gruppe20/droneOriginal.jpg',
+			src: 'droneOriginal.jpg',
 		},
 		{
 			alt: 'FPV Drone',
-			src: '/2023/ina4a/gruppe20/droneEdited.jpg',
+			src: 'droneEdited.jpg',
 		}
 	]
 	export const images2 = [
 		{
 			alt: 'Fidget Drone',
-			src: '/2023/ina4a/gruppe20/propsOriginal.jpg',
+			src: 'propsOriginal.jpg',
 		},
 		{
 			alt: 'Fidget Drone',
-			src: '/2023/ina4a/gruppe20/propsEdited.jpg',
+			src: 'propsEdited.jpg',
 		}
 	]
 	export const images3 = [
 		{
 			alt: 'Liftoff',
-			src: '/2023/ina4a/gruppe20/liftoffOriginal.jpg',
+			src: 'liftoffOriginal.jpg',
 		},
 		{
 			alt: 'Liftoff',
-			src: '/2023/ina4a/gruppe20/liftoffEdited.jpg',
+			src: 'liftoffEdited.jpg',
 		}
 	]
 </script>
