@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
 	import { Carousel, Heading } from 'flowbite-svelte';
   	import { fade } from 'svelte/transition';
 
@@ -8,31 +9,31 @@
 	export const images1 = [
 		{
 			alt: 'FPV Drone',
-			src: 'droneOriginal.jpg',
+			src: `${base}/droneOriginal.jpg`,
 		},
 		{
 			alt: 'FPV Drone',
-			src: 'droneEdited.jpg',
+			src: `${base}/droneEdited.jpg`,
 		}
 	]
 	export const images2 = [
 		{
 			alt: 'Fidget Drone',
-			src: 'propsOriginal.jpg',
+			src: `${base}/propsOriginal.jpg`,
 		},
 		{
 			alt: 'Fidget Drone',
-			src: 'propsEdited.jpg',
+			src: `${base}/propsEdited.jpg`,
 		}
 	]
 	export const images3 = [
 		{
 			alt: 'Liftoff',
-			src: 'liftoffOriginal.jpg',
+			src: `${base}/liftoffOriginal.jpg`,
 		},
 		{
 			alt: 'Liftoff',
-			src: 'liftoffEdited.jpg',
+			src: `${base}/liftoffEdited.jpg`,
 		}
 	]
 </script>

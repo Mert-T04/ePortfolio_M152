@@ -1,5 +1,12 @@
+# Enable Rewrite Engine
 RewriteEngine On
+
 RewriteBase /2023/ina4a/gruppe20/
-RewriteCond %{REQUEST_FILENAME} !-f
+
+# Check if the requested file does not have an extension
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\..+$
+
+# Append .html to the request
+RewriteRule ^(.+)/?$ $1.html [L]
