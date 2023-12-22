@@ -44,24 +44,32 @@
 		Jedes Bild erzählt eine eigene Geschichte und demonstriert die beeindruckenden Möglichkeiten der FPV-Technologie. Durch Bildbearbeitung bekommt jede Aufnahme einen speziellen Touch.
 	</p>
 	
-	<div class="max-w-4xl my-16">
+	<div class="max-w-xl center-images my-16">
 		<Carousel images={images1} transition={scaleAnimation} let:Controls let:Indicators>
 			<Controls />
 			<Indicators />
 		</Carousel>
 	</div>
 	
-	<div class="max-w-4xl my-16">
+	<div class="max-w-xl center-images my-16">
 		<Carousel images={images2} transition={scaleAnimation} let:Controls let:Indicators>
 			<Controls />
 			<Indicators />
 		</Carousel>
 	</div>
 	
-	<div class="max-w-4xl my-16">
+	<div class="max-w-xl center-images my-16">
 		<Carousel images={images3} transition={scaleAnimation} let:Controls let:Indicators>
 			<Controls />
 			<Indicators />
 		</Carousel>
 	</div>
 </div>
+
+<style>
+	@media screen and (min-width: 700px) {
+		.center-images {
+			margin-left: calc(50% - 18rem);
+		}
+	}
+</style>
